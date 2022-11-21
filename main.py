@@ -26,7 +26,7 @@ print(data)
 data["newValues"] = newValuesList
 axs[0].plot(data["newValues"], data["Ablesezeitpunkt"])
 axs[0].set_ylabel("Datum")
-axs[0].set_xlabel("Wie viel ist seit der lezten Messung hinzugekommen")
+axs[0].set_xlabel("Wie viel ist seit der letzten Messung hinzugekommen")
 axs[0].set_title("Zählerstände")
 axs[0].grid(True)
 for i in range(len(data["Ablesezeitpunkt"])):
