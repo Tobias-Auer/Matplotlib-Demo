@@ -1,3 +1,4 @@
+# Can only read Excel files if they have the same architecture as the example one!
 from datetime import datetime
 from tkinter import filedialog
 
